@@ -1,0 +1,11 @@
+# A quick scribble generator I made in python using turtle. Useful for natural looking backgrounds or something.
+
+import turtle
+from random import randint
+t = turtle.Turtle()
+t.speed(0)
+
+
+while True:
+  t.left(randint(0,10))
+  t.forward(randint(1,3))
